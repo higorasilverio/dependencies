@@ -1,0 +1,32 @@
+{
+  "name": "dependencies",
+  "version": "1.0.0",
+  "description": "dependencies introduction",
+  "main": "transform-string.js",
+  "scripts": {
+    "start": "node ts-node transform-string.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higorasilverio/dependencies.git"
+  },
+  "keywords": [
+    "JS",
+    "String"
+  ],
+  "author": "higorasilverio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higorasilverio/dependencies/issues"
+  },
+  "homepage": "https://github.com/higorasilverio/dependencies#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2",
+    "useful-string": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.4"
+  }
+}
